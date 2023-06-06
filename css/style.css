@@ -60,6 +60,19 @@ Table of Content:
   min-height: 20px;
 }
 
+#logooo2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: white;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.iniciarletras{
+  color:#b7aa1f;
+}
+
 a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
