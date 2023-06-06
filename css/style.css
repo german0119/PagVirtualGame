@@ -50,6 +50,16 @@ Table of Content:
   padding: 0px;
 }
 
+
+#logooo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  min-width: 20px;
+  min-height: 20px;
+}
+
 a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -86,16 +96,16 @@ button:focus {
 }
 
 .p_120 {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .pad_top {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .pad_btm {
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 
 .mt-25 {
@@ -107,7 +117,7 @@ button:focus {
   padding-right: 0px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
   .container {
     max-width: 1170px;
   }
@@ -190,7 +200,7 @@ button:focus {
   font: 500 12px/80px "Roboto", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  padding: 0px;
+  padding: 0px; 
   display: inline-block;
 }
 
@@ -3718,9 +3728,17 @@ h6 {
 
 .welcome_text h3 {
   color: #222222;
-  font-size: 36px;
+  font-size: 50px;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+.imagealado{
+  align-items: center;
+}
+
+.gta{
+  font-size: 100px;
 }
 
 .welcome_text p {
