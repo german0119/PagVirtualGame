@@ -61,8 +61,8 @@ Table of Content:
 }
 
 #logooo2 {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50px;
   background-color: white;
   min-width: 20px;
@@ -73,12 +73,47 @@ Table of Content:
   color:#b7aa1f;
 }
 
+
 a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+/* -----------------------------cariito_de_compras--------------------------------- */
+.cariito_de_compras{
+
+  width: 40 px;
+  height: 80px;
+  animation: rotacion 4s linear infinite; /* 4s es la duración de la animación, puedes ajustarla según tu preferencia */          
+}
+@keyframes rotacion {
+  0% {
+      transform: rotateY(0deg); /* Ángulo de rotación inicial */
+  }
+  100% {
+      transform: rotateY(360deg); /* Ángulo de rotación final */
+  }
+}
+
+  @media (max-width: 850px){
+    #carrito{
+        width: 50px;
+        height: 50px;
+        animation: rotacion 4s linear infinite; /* 4s es la duración de la animación, puedes ajustarla según tu preferencia */          
+    }
+    @keyframes rotacion {
+        0% {
+            transform: rotate(0deg); /* Ángulo de rotación inicial */
+        }
+        100% {
+            transform: rotate(360deg); /* Ángulo de rotación final */
+        }
+    }
+  }
+/* -----------------------------cariito_de_compras---------------------------------- */
+
 
 a:hover, a:focus {
   text-decoration: none;
@@ -341,9 +376,9 @@ button:focus {
   top: -70px;
   left: 0;
   right: 0;
-  background-image: -moz-linear-gradient(0deg, #141da2 0%, #9b5cf6 100%);
-  background-image: -webkit-linear-gradient(0deg, #141da2 0%, #9b5cf6 100%);
-  background-image: -ms-linear-gradient(0deg, #141da2 0%, #9b5cf6 100%);
+  background-image: -moz-linear-gradient(0deg, #eed814 0%, #d69317 100%);
+  background-image: -webkit-linear-gradient(0deg, #d5eb0e 0%, #da9f1f 100%);
+  background-image: -ms-linear-gradient(0deg, #d0d31e 0%, #f08e1f 100%);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -1132,9 +1167,9 @@ button:focus {
 }
 
 .blog_right_sidebar .newsletter_widget .bbtns {
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #cad625 0%, #7249fb 100%);
+  background-image: -webkit-linear-gradient(0deg, #ced123 0%, #7249fb 100%);
+  background-image: -ms-linear-gradient(0deg, #d4c325 0%, #7249fb 100%);
   color: #fff;
   font-size: 12px;
   line-height: 38px;
